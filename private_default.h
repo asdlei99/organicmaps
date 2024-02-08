@@ -2,6 +2,10 @@
 
 #define OSM_CONSUMER_KEY "zz16eUusTr4TcVhoKQrgOJaRzZAeI2ktbVx6e3yn"
 #define OSM_CONSUMER_SECRET "7g4XrlhFkiOG1I3Zpqh8ajo94P9cNNXaU2YCMgL7"
+#define OSM_OAUTH2_CLIENT_ID "nw9bW3nZ-q99SXzgnH-dlED3ueDSmFPtxl33n3hDwFU"
+#define OSM_OAUTH2_CLIENT_SECRET "nIxwFx1NXIx9lKoNmb7lAoHd9ariGMf46PtU_YG558c"
+#define OSM_OAUTH2_REDIRECT_URI "om://oauth2/osm/callback"
+#define OSM_OAUTH2_SCOPE "read_prefs"
 #define MWM_GEOLOCATION_SERVER ""
 #define METASERVER_URL "https://meta.omaps.app/maps"
 #define DIFF_LIST_URL ""
