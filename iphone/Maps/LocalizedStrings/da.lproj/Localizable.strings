@@ -52,6 +52,18 @@
 
 "about_menu_title" = "Om Organic Maps";
 
+/* Text in About screen */
+"about_headline" = "Gratis for alle, lavet med kærlighed";
+
+/* Text in About screen */
+"about_proposition_1" = "• Ingen annoncer, ingen sporing, ingen dataindsamling";
+
+/* Text in About screen */
+"about_proposition_2" = "• Intet batteridræn, fungerer offline";
+
+/* Text in About screen */
+"about_proposition_3" = "• Hurtig, minimalistisk, udviklet af fællesskabet";
+
 "close" = "Luk";
 
 "download" = "Download";
@@ -200,7 +212,7 @@
 "done" = "Færdig";
 
 /* Prints version number in About dialog */
-"version" = "Version: %@";
+"version" = "Organic Maps version: %@";
 
 /* Data version in «About» screen, %@ is replaced by a local, human readable date. */
 "data_version" = "OpenStreetMap-data: %@";
@@ -315,6 +327,9 @@
 /* Button in the main menu */
 "donate" = "Doner";
 
+/* Tex label above the Donate button */
+"donate_description" = "Donér for at bygge de bedste kort sammen!";
+
 /* Button in the main Help dialog */
 "how_to_support_us" = "Støt projektet";
 
@@ -323,6 +338,15 @@
 
 /* Text in menu + Button in the main Help dialog */
 "report_a_bug" = "Rapportér fejl";
+
+/* Button in the About screen */
+"report_incorrect_map_bug" = "Rapporter eller ret forkerte kortdata";
+
+/* Button in the About screen */
+"volunteer" = "At melde sig som frivillig";
+
+/* "Social media" section header in the About screen */
+"follow_us" = "Følg og kontakt os:";
 
 /* Alert text */
 "email_error_body" = "Emailklienten er ikke blevet sat op. Venligst konfigurér den eller brug en anden måde til at kontakte os på %@";
@@ -704,6 +728,9 @@
 
 "message_invalid_feature_position" = "Et objekt kan ikke placeres her";
 
+/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. Second %@ is a clickable link to OpenStreetMap.org. */
+"osm_presentation" = "Fællesskabsskabte OpenStreetMap-data fra %@. Lær mere om, hvordan du redigerer og opdaterer kortet på %@";
+
 "login_to_make_edits_visible" = "Log på så andre brugere kan se ændringerne som du har foretaget.";
 
 /* Error dialog no space */
@@ -861,9 +888,6 @@
 "sharing_call_action_look" = "Tjek";
 
 "recent_track_background_dialog_message" = "Organic Maps anvender din geoposition i baggrunden til at gemme din seneste rejserute.";
-
-/* Text under the version number in the Help dialog. TODO: Synchronize other translations with English. */
-"about_description" = "Organic Maps er en gratis og open source offline kortapplikation. Ingen annoncer. Ingen sporing. Hvis du ser en fejl på kortet, skal du rette den i OpenStreetMap. Projektet er skabt af entusiaster i vores fritid, så vi har brug for din feedback og support.";
 
 "general_settings" = "Generelle indstillinger";
 
