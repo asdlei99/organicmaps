@@ -65,15 +65,12 @@ final class PlacePageScrollView: UIScrollView {
     bgView.alignToSuperview()
 
     scrollView.decelerationRate = .fast
-    scrollView.layer.cornerRadius = 10
-    scrollView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+    scrollView.backgroundColor = .clear
+    
+    stackView.backgroundColor = .clear
 
-    stackView.layer.cornerRadius = 10
-    stackView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-
-    actionBarContainerView.layer.cornerRadius = 10
+    actionBarContainerView.layer.setCorner(radius: 10, corners: [.layerMinXMaxYCorner, .layerMaxXMaxYCorner])
     actionBarContainerView.layer.masksToBounds = true
-    actionBarContainerView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
 
     // See https://github.com/organicmaps/organicmaps/issues/6917 for the details.
     if #available(iOS 13.0, *), previousTraitCollection == nil {
